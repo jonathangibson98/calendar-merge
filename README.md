@@ -21,6 +21,8 @@ No YAML. No AppDaemon. Everything is set up from the Home Assistant UI.
 
 ## Installation
 
+[![Open your Home Assistant instance and open Calendar Merge inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jonathangibson98&repository=calendar-merge&category=integration)
+
 ### HACS (custom repository)
 1. Open **HACS** in Home Assistant
 2. Three-dot menu, then **Custom repositories**
