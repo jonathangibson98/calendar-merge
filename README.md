@@ -24,7 +24,7 @@ No YAML. No AppDaemon. Everything is set up from the Home Assistant UI.
 ### HACS (custom repository)
 1. Open **HACS** in Home Assistant
 2. Three-dot menu, then **Custom repositories**
-3. Add `https://github.com/YOUR-USERNAME/calendar-merge` with the category **Integration**
+3. Add `https://github.com/jonathangibson98/calendar-merge` with the category **Integration**
 4. Search for **Calendar Merge**, download it, and **restart Home Assistant**
 
 ### Manual
