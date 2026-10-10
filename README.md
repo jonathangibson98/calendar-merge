@@ -1,3 +1,5 @@
+![Calendar Merge](calendar-merge-social-preview.png)
+
 # Calendar Merge
 
 Combine as many calendars as you want into one. Make as many merged calendars as you want.
