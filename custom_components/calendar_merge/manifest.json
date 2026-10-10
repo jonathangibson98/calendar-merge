@@ -1,7 +1,7 @@
 {
   "domain": "calendar_merge",
   "name": "Calendar Merge",
-  "codeowners": ["@YOUR-USERNAME"],
+  "codeowners": ["jonathangibson98"],
   "config_flow": true,
   "dependencies": ["calendar"],
   "documentation": "https://github.com/YOUR-USERNAME/calendar-merge",
