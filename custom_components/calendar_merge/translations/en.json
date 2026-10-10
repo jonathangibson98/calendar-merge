@@ -1,1 +1,51 @@
-yo
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Create a merged calendar",
+        "description": "Pick the calendars you want combined into one. Add this integration again to make more groups (for example one for everything and one just for sports).",
+        "data": {
+          "name": "Name",
+          "calendars": "Calendars to merge",
+          "days_ahead": "Days ahead",
+          "update_interval": "Update interval",
+          "deduplicate": "Remove duplicate events"
+        },
+        "data_description": {
+          "name": "Shows up as the name of the new calendar, like \"All Calendars\" or \"Sports\".",
+          "days_ahead": "How far ahead the Upcoming events sensor looks. Calendar cards can still browse any date.",
+          "update_interval": "How often to re-read your source calendars.",
+          "deduplicate": "If the same event (same title and time) is on more than one calendar, show it once."
+        }
+      }
+    },
+    "error": {
+      "no_name": "Give it a name.",
+      "no_calendars": "Pick at least one calendar."
+    },
+    "abort": {
+      "already_configured": "A merged calendar with that name already exists."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit merged calendar",
+        "data": {
+          "calendars": "Calendars to merge",
+          "days_ahead": "Days ahead",
+          "update_interval": "Update interval",
+          "deduplicate": "Remove duplicate events"
+        },
+        "data_description": {
+          "days_ahead": "How far ahead the Upcoming events sensor looks. Calendar cards can still browse any date.",
+          "update_interval": "How often to re-read your source calendars.",
+          "deduplicate": "If the same event (same title and time) is on more than one calendar, show it once."
+        }
+      }
+    },
+    "error": {
+      "no_calendars": "Pick at least one calendar."
+    }
+  }
+}
