@@ -1,1 +1,13 @@
-hi
+{
+  "domain": "calendar_merge",
+  "name": "Calendar Merge",
+  "codeowners": ["@YOUR-USERNAME"],
+  "config_flow": true,
+  "dependencies": ["calendar"],
+  "documentation": "https://github.com/YOUR-USERNAME/calendar-merge",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/YOUR-USERNAME/calendar-merge/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
